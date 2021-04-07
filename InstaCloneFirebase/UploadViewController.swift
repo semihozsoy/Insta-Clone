@@ -82,6 +82,7 @@ class UploadViewController: UIViewController,UIImagePickerControllerDelegate,UIN
                             let imageUrl = url?.absoluteString
                             
                             // DATABASE
+                            // Database entegration for firebase
                             
                             let firestoreDatabase = Firestore.firestore()
                             
